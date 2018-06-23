@@ -11,7 +11,8 @@ import
   MatCardModule, 
   MatButtonModule,
   MatToolbarModule,
-  MatExpansionModule } from '@angular/material';
+  MatExpansionModule,
+  MatProgressSpinnerModule } from '@angular/material';
 import { HeaderComponent } from './header/header.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
 import { PostsService } from './posts/posts.service';
@@ -35,7 +36,8 @@ import { AppRoutingModule } from './app-routing.module';
     MatCardModule, 
     MatButtonModule,
     MatToolbarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatProgressSpinnerModule
   ],
   providers: [PostsService],
   bootstrap: [AppComponent]
